@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Login Page</title>
+</head>
+<body class="login-body">
+    <nav>
+        <form class="login-box" action="">
+            <h1 class="login-box__header">Login</h1>
+            <div class="login-box__username">
+                <input type="text" class="login-box__input" placeholder="username">
+            </div>
+            <div class="login-box__password">
+                <input type="text" class="login-box__input" type="password" placeholder="password" >
+            </div>
+            <button class="login-box__btn">Continue</button>
+            <p class="login-box__forgot-pass" ><a href="">Forgot Your Password?</a></p>
+            <p class="login-box__new-acct"><a href="">Don't Have an Account? Create Account here</a></p>
+            <p class="login-box__error-message"></p>
+        </form>
+
+        <form class="login-box create-account--hidden" action="">
+            <h1 class="login-box__header">Login</h1>
+            <input type="text" class="login-box__input" placeholder="username">         
+            <input type="text" class="login-box__input" type="password" placeholder="password" >
+            <input type="text" class="login-box__input" type="password" placeholder="confirm password" >
+            <input type="text" class="login-box__input" type="email-address" placeholder="e-mail" >
+            <button class="login-box__btn">Continue</button>
+            <p class="create-account__error-message"></p>
+        </form>
+
+    </nav>
+    
+</body>
+</html>
